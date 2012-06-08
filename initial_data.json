@@ -1,0 +1,37 @@
+[
+ {
+  "pk": 1,
+  "model": "sites.site",
+  "fields": {
+   "domain": "WF SSDB",
+   "name": "Willy Scorecard & Skills Database (SSDB)"
+  }
+ },
+ {
+  "pk": 1,
+  "model": "auth.user",
+  "fields": {
+   "username": "admin",
+   "first_name": "Administrative",
+   "last_name": "User",
+   "is_active": true,
+   "is_superuser": true,
+   "is_staff": true,
+   "last_login": "2012-02-02 20:23:39",
+   "groups": [],
+   "user_permissions": [],
+   "password": "sha1$b7045$9ca4b7fa0376159c91b71c7dbb3891c7a51ac7fa",
+   "email": "admin@thi.com",
+   "date_joined": "2012-01-30 16:29:25"
+  }
+ },
+ {
+  "pk": 1,
+  "model": "account.account",
+  "fields": {
+   "timezone": "US/Hawaii",
+   "user": 1,
+   "language": "en"
+  }
+ }
+]
